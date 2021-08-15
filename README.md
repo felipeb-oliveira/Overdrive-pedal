@@ -6,11 +6,8 @@ A simple overdrive circuit implemented with a OpAmp with soft clipping and a ton
   2. Equalization: capacitors to filter out some low noise and DC;
   3. Gain stage with soft clipping (made by the 2 opposed diodes on the OpAmp feedback) and low pass filter (capacitor on the OpAmp feedback, and grounded capacitor and resistor on the OpAmp negative input);
   4. Tone Control (Inpired by the Big Muff tone control circuit): basicaly a low pass filter in parallel with a high pass filter, united by a potentiometer to control the filtering.
-  5. Output with volume control: a grounded potentiometer, where the output can be controlled from GND to the total distorced signal.
-
-## 3D Model
-
-![Ovedrive 3D model](https://github.com/felipeb-oliveira/Overdrive-pedal/blob/master/images/board3d.PNG)
+  5. BJT buffer
+  6. Output with volume control: a grounded potentiometer, where the output can be controlled from GND to the total distorced signal.
 
 ## Overdrive Schematic
 *This is only the soft clipping and tone control circuit, without the inputs, outputs and supply circuits. Please open the Altium project for the full circuit.*
